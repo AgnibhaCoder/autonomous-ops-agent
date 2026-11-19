@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.conda/
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & databases
+*.log
+*.sqlite3
+*.db
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Root sandbox test files (if sandbox/ lives at repo root)
+sandbox/*
+!sandbox/.gitkeep
+
+# Frontend dependencies & build outputs
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
